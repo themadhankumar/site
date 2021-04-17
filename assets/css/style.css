@@ -32,22 +32,24 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
+  color: #fff;
   background: #ffc40d;
   width: 40px;
   height: 40px;
   border-radius: 50px;
   transition: all 0.4s;
+
 }
 
 .back-to-top i {
   font-size: 28px;
-  color: #fff;
+  color: #ffc40d;
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #FFD34C;
-  color: #fff;
+  background: #fff;
+  color: #ffc40d;
 }
 
 .back-to-top.active {
