@@ -220,6 +220,10 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background: url("../img/str.jpg") top center;
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #hero:before {
@@ -891,6 +895,7 @@ section {
   padding: 30px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+
 }
 
 .contact .php-email-form .form-group {
