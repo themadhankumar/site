@@ -357,24 +357,27 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
+.resume-button{
 
+
+}
 .btn {
-  background-color: #149ddd;
+  background-color: #ffc40d;
   border: #fff;
-  border-radius: 2px;
+  border-radius: 5px;
   color: white;
-  padding: 10px 24px;
+  padding: 11px 26px;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 16px;
   transition: 0.4s;
-  border-radius: 4px;
+
 }
 
 .btn:hover{
   background-color: #fff;
-  border: #149ddd;
+  border: #ffc40d;
   border-radius: 2px;
-  color: #149ddd;
+  color: #ffc40d;
 }
 
 
