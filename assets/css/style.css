@@ -345,11 +345,11 @@ section {
   margin-bottom: 0;
 }
 
-@media (max-width:600px) {
+/* @media (max-width:600px) {
   .about-content p{
     width:500;
   }
-} 
+} */
 @media (min-width: 600px) {
   .about-content p{
     width:600px;
