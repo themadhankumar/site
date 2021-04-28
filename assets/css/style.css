@@ -307,6 +307,7 @@ section {
   padding-bottom: 20px;
   position: relative;
   color: #040b14;
+  
 
 }
 
@@ -320,12 +321,44 @@ section {
   background: #ffc40d;
   bottom: 0;
   left: calc(44.3% );
+  
+  
+
+}
+@media (max-width:600px) {
+  .section-title h2::after{
+    left:calc(30%);
+  }
+  
+} 
+@media only screen and (min-device-width: 768px) and (max-device-width: 1280px) {
+
+  .section-title h2::after{
+    left:calc(40%);
+
+  }
 
 }
 
-.section-title p {
+
+.about-content p{
   margin-bottom: 0;
 }
+
+/* @media (max-width:600px) {
+  .about-content p{
+    width:500;
+  }
+} */
+@media (min-width: 600px) {
+  .about-content p{
+    width:600px;
+    text-align: center;
+    margin:auto;
+  }
+}
+  
+
 
 /*--------------------------------------------------------------
 # About
@@ -816,6 +849,7 @@ section {
 .testimonials .testimonial-item p::after {
   content: "";
   width: 0;
+  max-width: 1050px;
   height: 0;
   border-top: 20px solid #fff;
   border-right: 20px solid transparent;
