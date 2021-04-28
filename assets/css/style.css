@@ -297,6 +297,7 @@ section {
 
 .section-title {
   padding-bottom: 30px;
+
 }
 
 .section-title h2 {
@@ -313,11 +314,12 @@ section {
   content: '';
   position: absolute;
   display: block;
-  width: 130px;
+  width: 150px;
+  text-align: center;
   height: 3px;
   background: #ffc40d;
   bottom: 0;
-  left: 0;
+  left: calc(44.3% );
 
 }
 
@@ -341,7 +343,7 @@ section {
 
 .about .content ul li {
   margin-bottom: 20px;
-  display: flex;
+  display: block;
   align-items: center;
 }
 
@@ -861,7 +863,7 @@ section {
   width: 44px;
   height: 44px;
   background: #dff3fc;
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   border-radius: 50px;
