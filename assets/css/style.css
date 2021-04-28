@@ -306,6 +306,7 @@ section {
   padding-bottom: 20px;
   position: relative;
   color: #040b14;
+
 }
 
 .section-title h2::after {
@@ -317,6 +318,7 @@ section {
   background: #ffc40d;
   bottom: 0;
   left: 0;
+
 }
 
 .section-title p {
@@ -352,6 +354,7 @@ section {
   margin-right: 5px;
   color: #149ddd;
   line-height: 0;
+  text-align: center;
 }
 
 .about .content p:last-child {
@@ -447,7 +450,7 @@ section {
   margin: 0 0 6px 0;
   text-transform: uppercase;
   display: block;
-  font-weight: 600;
+  font-weight: 1000;
   font-family: "Poppins", sans-serif;
   color: #050d18;
 }
@@ -483,7 +486,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid #ffc40d;
   position: relative;
 }
 
@@ -527,7 +530,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #1f5297;
+  border: 2px solid #ffc40d;
 }
 
 /*--------------------------------------------------------------
