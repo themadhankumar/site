@@ -307,7 +307,7 @@ section {
   padding-bottom: 20px;
   position: relative;
   color: #040b14;
-  
+
 
 }
 
@@ -321,16 +321,16 @@ section {
   background: #ffc40d;
   bottom: 0;
   left: calc(44.3% );
-  
-  
+
+
 
 }
 @media (max-width:600px) {
   .section-title h2::after{
     left:calc(30%);
   }
-  
-} 
+
+}
 @media only screen and (min-device-width: 768px) and (max-device-width: 1280px) {
 
   .section-title h2::after{
@@ -357,7 +357,7 @@ section {
     margin:auto;
   }
 }
-  
+
 
 
 /*--------------------------------------------------------------
