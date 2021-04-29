@@ -693,7 +693,7 @@
     <div class="col-lg-2"></div>
               <div class="col-lg-8 mt-5 mt-lg-0 d-flex align-items-stretch">
                 <!--<form action="forms/contact.php" method="post" role="form" >-->
-                  <form action="https://formspree.io/f/xeqvooyy" method="POST" class="php-email-form" >
+                  <form action="https://formspree.io/f/xeqvooyy" method="POST" class="php-email-form" id="myForm">
                     <div class="row">
                     <div class="form-group col-md-6">
                       <label for="name">Your Name</label>
@@ -717,8 +717,14 @@
                     <div class="error-message"></div>
                     <div class="sent-message">Your message has been sent. Thank you!</div>
                   </div>
-                  <div class="text-center"><button type="submit">Send Message</button></div>
+                  <div class="text-center"><button type="submit" onclick="myFunction()">Send Message</button></div>
                 </form>
+                <script>
+                  function myFunction() {
+                    document.getElementById("myForm").reset();
+                  }
+                </script>
+
                 <!--
                 <label> Your email: <input type="email" name="_replyto"></label>
                 <label>Your message:<textarea name="message"></textarea> </label>
