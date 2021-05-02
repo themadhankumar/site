@@ -13,10 +13,9 @@
   <link href="assets/img/themkfavicon.png" rel="icon">
   <link href="assets/img/themkfavicon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
+
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -25,47 +24,84 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
   <script src="https://kit.fontawesome.com/ca16dffdc6.js" crossorigin="anonymous"></script>
+
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-<style>
-.portfolio-block .heading p {
+
+  <style>
+  .portfolio-block .heading p {
+      text-align: center;
+      max-width: 420px;
+      margin: auto;
+      opacity: .7;
+      font-size: 125%;
+  }
+  .portfolio-block .heading img{
+  width:35%;
+  padding-bottom: 40px;
+}
+
+  .portfolio-block {
+      padding-bottom: 100px;
+      padding-top: 60px
+  }
+
+  .portfolio-block .heading {
+      margin-bottom: 10px;
+      margin-top: 60px;
+      text-align: center
+  }
+  .social-links a {
+    font-size: 34px;
+    display: inline-block;
+    background: #fff;
+    color: #ffc40d;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
     text-align: center;
-    max-width: 420px;
-    margin: auto;
-    opacity: .7;
-}
+    width: 50px;
+    height: 50px;
+    transition: 0.3s;
+  }
+
+  .social-links a:hover {
+    background: #ffc40d;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  @media (max-width: 1000px) {
 
 
-.portfolio-block {
-    padding-bottom: 60px;
-    padding-top: 60px
-}
 
-.portfolio-block .heading {
-    margin-bottom: 50px;
-    text-align: center
+    .portfolio-block .heading img{
+      width: 100%;
+      padding-bottom: 40px;
+  }
 }
-.social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #212431;
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-}
+@media (max-width: 1199px) {
+#footer{
+    position: fixed;
 
-.social-links a:hover {
-  background: #ffc40d;
-  color: #fff;
-  text-decoration: none;
+    padding-right: 20px 15px;
+    width: 100%;
+    z-index: 9999;
 }
-</style>
+.portfolio-block .heading img{
+width:60%;
+padding-bottom: 40px;
+}
+.portfolio-block .heading p {
+  font-size: 110%;
+}
+  .portfolio-block {
+    padding-bottom: 75px;
+    padding-top: 35px
+}
+}
+  </style>
 
 </head>
 
@@ -92,66 +128,82 @@
           <a href="https://twitter.com/themadhankumar" class="twitter" title="Twitter"><i class="bx bxl-twitter"></i></a>
           <a href="https://www.instagram.com/themadhankumar/" class="instagram" title="Instagram"><i class="bx bxl-instagram"></i></a>
           <a href="https://www.hackerrank.com/madhankm29" class="hackerrank" title="HackerRank"><i class="fab fa-hackerrank"></i></a>
-          <a href="https://wa.link/919941712460" class="Whatsapp" title="Whatsapp"><i class="bx bxl-whatsapp"></i></a>
+          <!--a href="https://wa.link/919941712460" class="Whatsapp" title="Whatsapp"><i class="bx bxl-whatsapp"></i></a>-->
         </div>
       </div>
 
       <nav id="navbar" class="nav-menu navbar">
         <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Little About Me</span></a></li>
-          <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-award"></i> <span>Things I Know</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>My Experience</span></a></li>
-          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>My Works</span></a></li>
-          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>More About me</span></a></li>
-          <li><a href="#testimonials" class="nav-link scrollto"><i class="bx bx-comment-detail"></i> <span>Favourite Quotes</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact me</span></a></li>
+          <li><a href="index.html#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="index.html#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Little About Me</span></a></li>
+          <li><a href="index.html#skills" class="nav-link scrollto"><i class="bx bx-award"></i> <span>Things I Know</span></a></li>
+          <li><a href="index.html#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>My Experience</span></a></li>
+          <li><a href="index.html#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>My Works</span></a></li>
+          <li><a href="index.html#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>More About me</span></a></li>
+          <li><a href="index.html#testimonials" class="nav-link scrollto"><i class="bx bx-comment-detail"></i> <span>Favourite Quotes</span></a></li>
+          <li><a href="index.html#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact me</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
     </div>
   </header><!-- End Header -->
 
-  <main class="page contact-page">
-  <section class="portfolio-block contact">
-  <div class="container">
-  <div class="heading">
-  <h2>Thank You!</h2>
-  <img src="assets/img/thankyoupb.png" alt="">
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2></h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Thank You</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <main class="page contact-page">
+    <section class="portfolio-block contact">
+    <div class="container">
+    <div class="heading">
+
+      <img src="assets/img/thankyoupb.png" alt="" >
 
 
-  <p class="text-center">Thank you for you reaching out to me.<br> I'll get back to you shortly!</p>
-  </div>
-  </div>
-  </section>
-  </main>
+    <p class="text-center">Thank you for you reaching out to me.<br> I'll get back to you shortly!</p>
+    </div>
+    </div>
+    </section>
+    <div class="checktext">
+      <p class="text-center">Also, You can reach me here</p>
+    <div class="social-links mt-3 text-center">
+      <a href="https://github.com/MadhanKumar13" class="git" title="GitHub"><i class="bx bxl-git"></i></a>
+      <a href="https://www.linkedin.com/in/madhan-kumar-0495b9a5/" class="linkedin" title="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+      <a href="https://twitter.com/themadhankumar" class="twitter" title="Twitter"><i class="bx bxl-twitter"></i></a>
+      <a href="https://www.instagram.com/themadhankumar/" class="instagram" title="Instagram"><i class="bx bxl-instagram"></i></a>
+      <a href="https://www.hackerrank.com/madhankm29" class="hackerrank" title="HackerRank"><i class="fab fa-hackerrank"></i></a>
+      <!--<a href="https://wa.link/919941712460" class="Whatsapp" title="Whatsapp"><i class="bx bxl-whatsapp"></i></a>-->
+        </div><br>
+    <div>
+      <a href="index.html">
+        <p class="text-center"><i class="fa fa-reply "></i>&nbspBack to Home</p>
+      </a>
+    </div><br>
+  </main><!-- End #main -->
 
-  <div class="social-links mt-3 text-center">
-    <a href="https://github.com/MadhanKumar13" class="git" title="GitHub"><i class="bx bxl-git"></i></a>
-    <a href="https://www.linkedin.com/in/madhan-kumar-0495b9a5/" class="linkedin" title="LinkedIn"><i class="bx bxl-linkedin"></i></a>
-    <a href="https://twitter.com/themadhankumar" class="twitter" title="Twitter"><i class="bx bxl-twitter"></i></a>
-    <a href="https://www.instagram.com/themadhankumar/" class="instagram" title="Instagram"><i class="bx bxl-instagram"></i></a>
-    <a href="https://www.hackerrank.com/madhankm29" class="hackerrank" title="HackerRank"><i class="fab fa-hackerrank"></i></a>
-    <a href="https://wa.link/919941712460" class="Whatsapp" title="Whatsapp"><i class="bx bxl-whatsapp"></i></a>
-  </div>
-  <div>
-    <p class="text-center"><a href="index.html">Back to Home</a></p>
-  </div>
-
-
-
-<!-- End #main -->
-
-  <!-- ======= Footer =======-->
+  <!-- ======= Footer ======= -->
   <footer id="footer">
   <div class="container">
-    <div class="copyright">
+    <!--<div class="copyright">
        Call me at  <a href= "tel:+918072668133"><strong><span style="color: #ffc40d;"><b>+91 80726 68133</b></span></strong></a>
-    </div>
+    </div>-->
     <div class="credits">
       <a href="mailto:madhankm29@gmail.com" style="color: #fff;"><i class="fa fa-envelope"style="color: #ffc40d;"></i><b> madhankm29@gmail.com</b></a>
     </div>
   </div>
-  </footer> <!-- End  Footer -->
+  </footer><!-- End  Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
