@@ -392,13 +392,18 @@ section {
   text-align: center;
 }
 
-.about .content p:last-child {
+  .about .content p:last-child {
   margin-bottom: 0;
 }
-.resume-button{
-
-
+  .about-content p{
+   font-size: 20px;
 }
+  @media (max-width: 576px) {
+  .about-content p{
+   font-size: 12px;
+}
+    }
+
 .btn {
   background-color: #ffc40d;
   border: #fff;
