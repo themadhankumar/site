@@ -4,3 +4,4 @@ Disallow: 404.html
 Disallow: /assets/css
 Disallow: /assets/js
 Disallow: /assets/vendor
+Allow: /assets/img/titlecard.jpg
