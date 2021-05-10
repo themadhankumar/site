@@ -297,7 +297,7 @@ section {
 
 .section-title {
   padding-bottom: 30px;
-
+  text-align: center;
 }
 
 .section-title h2 {
@@ -307,7 +307,7 @@ section {
   padding-bottom: 20px;
   position: relative;
   color: #040b14;
-
+  style="text-align: center;"
 
 }
 
@@ -367,8 +367,10 @@ section {
    font-size: 15px;
 }
     }
-
-.btn {
+.about .resume-button{
+  text-align:center;
+}
+.about .btn {
   background-color: #ffc40d;
   border: #fff;
   border-radius: 5px;
@@ -377,14 +379,15 @@ section {
   cursor: pointer;
   font-size: 16px;
   transition: 0.4s;
-
+  text-align:center;
 }
 
-.btn:hover{
+.about .btn:hover{
   background-color: #fff;
   border: #ffc40d;
   border-radius: 2px;
   color: #ffc40d;
+
 }
 
 /*--------------------------------------------------------------
@@ -929,11 +932,12 @@ section {
 
 #footer
 
-#footer .credits {
+#footer .credits a{
   padding-top: 5px;
   text-align: center;
   font-size: 13px;
-  color: #eaebf0;
+  color: #fff;
+
 }
 
 @media (max-width: 1199px) {
