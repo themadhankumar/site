@@ -218,14 +218,14 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("assets/str.jpg") top center;
+  background: url("../img/str.jpg") top center;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-/*das*/
+
 #hero:before {
   content: "";
   background: rgba(5, 13, 24, 0.3);
@@ -297,7 +297,7 @@ section {
 
 .section-title {
   padding-bottom: 30px;
-  text-align: center;
+
 }
 
 .section-title h2 {
@@ -307,7 +307,7 @@ section {
   padding-bottom: 20px;
   position: relative;
   color: #040b14;
-  style="text-align: center;"
+
 
 }
 
@@ -367,10 +367,8 @@ section {
    font-size: 15px;
 }
     }
-.about .resume-button{
-  text-align:center;
-}
-.about .btn {
+
+.btn {
   background-color: #ffc40d;
   border: #fff;
   border-radius: 5px;
@@ -379,15 +377,14 @@ section {
   cursor: pointer;
   font-size: 16px;
   transition: 0.4s;
-  text-align:center;
+
 }
 
-.about .btn:hover{
+.btn:hover{
   background-color: #fff;
   border: #ffc40d;
   border-radius: 2px;
   color: #ffc40d;
-
 }
 
 /*--------------------------------------------------------------
@@ -932,12 +929,11 @@ section {
 
 #footer
 
-#footer .credits a{
+#footer .credits {
   padding-top: 5px;
   text-align: center;
   font-size: 13px;
-  color: #fff;
-
+  color: #eaebf0;
 }
 
 @media (max-width: 1199px) {
